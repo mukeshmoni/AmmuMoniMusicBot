@@ -22,7 +22,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "1800000000000"))
 LOGGER_ID = int(getenv("LOGGER_ID", "-1001891375171"))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "6649395836"))
+OWNER_ID = int(getenv("OWNER_ID", "1054522004"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -32,7 +32,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Sandy8752/BalaMusicBot",
+    "https://t.me/tamil_taj",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
@@ -62,7 +62,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 
 # Get your pyrogram v2 session from @StringFatherBot on Telegram
-STRING1 = getenv("STRING_SESSION1", "BQAykRDYNptEbsdEkv2uI9CRCouMwmFaT57e4yB9ZvLE4XgdRjUzQv-25g4FSk_EkGltkrvlyQYNVot4Gm2THTMfVAr4XNUTd7U3au4YKLhHHx9fqsLHAw8Osfkp8br6uMEEQr5lYIEIOLOOOTaOujJ4XoEzCqCQoizKVdhJntvVJMg5JAiyhI8DHzYWN4_-NelJHogsPaNXZ9YE7q09R3_KkadLxPFTS3VOmU76E-dw9gmCJF2S0RObCcQpBWIQFK7oaXMgplVqnQEeERQx7jlX07AThKd4biyJSueWjAVxIUo6qNE-zPNpO1a7n7dMyXkOQGCCyKUHpDLY0P2JxpoQP63NpgA")
+STRING1 = getenv("STRING_SESSION1", "BQCnJlsqbJpvWpLDowRrEY-CHWL0nUmlKpcsy2hQm4-MIx17-fB2HGVoLq1LYsYEGmvYWqQDgM5Mf67zoJiCHH-veMLKURFVs6c_ggZJLaXwMh58iYyap_UamBmihBMIhiFEBz9-CfUHJOFVDWK3GWOax3rB_lP9P6eEbnFhOJDtzIZMN5ukCBYx2JnvwFt7ygvD2l8Shv7HmsPID0c_yJiQX2wyzSkr6ROhTEQQ9Wx2qHORMVQivP9DxFOwsPTdSShaDHpOjeX6_WC5SpvvtZzpizeA8yeGgX52dp8d8J76nKObPFxy4VNxAEzfe0RhlgjWGfuSuYUpib6kqyIJO7cSAAAAAX65aGkA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
