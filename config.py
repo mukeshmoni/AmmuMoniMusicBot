@@ -16,7 +16,7 @@ BOT_TOKEN = getenv("BOT_TOKEN","6582609535:AAEDr8vWcHa83oVwVZrR4ExfBykMoIe3UF8")
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://monivps3:monivps3@cluster0.jnjnbnx.mongodb.net/?retryWrites=true&w=majority")
 
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "1800000000000"))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "180000000000000000000000000000000000000000000000000"))
 
 # Chat id of a group for logging bot's activities
 LOGGER_ID = int(getenv("LOGGER_ID", "-1001891375171"))
